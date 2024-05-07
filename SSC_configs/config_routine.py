@@ -29,7 +29,7 @@ config_dict['DATASET']['MODALITIES'] = {}
 config_dict['DATASET']['MODALITIES']['3D_LABEL'] = True
 config_dict['DATASET']['MODALITIES']['3D_OCCUPANCY'] = True
 config_dict['DATASET']['MODALITIES']['3D_OCCLUDED'] = True
-config_dict['DATASET']['ROOT_DIR'] = '/datasets_local/datasets_lroldaoj/semantic_kitti_v1.0/'
+config_dict['DATASET']['ROOT_DIR'] = '/content/semanticKITTI'
 config_dict['DATASET']['AUGMENTATION'] = {}
 config_dict['DATASET']['AUGMENTATION']['FLIPS'] = True  # More data augmentation can be added in dataloader
 # -------------------------------------------------------------
@@ -53,7 +53,7 @@ config_dict['OPTIMIZER']['BETA2'] = 0.999
 
 # -------------------------------------------------------------
 config_dict['OUTPUT'] = {}
-config_dict['OUTPUT']['OUT_ROOT'] = '../SSC_out/'
+config_dict['OUTPUT']['OUT_ROOT'] = '/content/Output'
 # -------------------------------------------------------------
 
 # -------------------------------------------------------------
