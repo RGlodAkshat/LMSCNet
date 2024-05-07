@@ -39,8 +39,8 @@ class SemanticKITTI_dataloader(Dataset):
                                        2.26992300e+06, 5.68402180e+07, 1.57196520e+07, 1.58442623e+08,
                                        2.06162300e+06, 3.69705220e+07, 1.15198800e+06, 3.34146000e+05])
 
-    self.split = {'train': [0, 1, 2, 3, 4, 5, 6, 7, 9, 10], 'val': [8],
-                  'test': [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]}
+    self.split = {'train': [0, 1, 2, 3, 4, 5, 6], 'val': [7],
+                  'test': [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
 
     for modality in self.modalities:
       if self.modalities[modality]:
